@@ -1,0 +1,19 @@
+@relation Weather-weka.filters.unsupervised.attribute.Add-TNOM-NClimate-L-Clast-W1.0
+
+@attribute Outlook {Sunny,Rainy,Overcast}
+@attribute Temperature numeric
+@attribute Humidity numeric
+@attribute Windy {True,False}
+@attribute Play {Yes,No}
+@attribute Climate {}
+
+@data
+Sunny,85,85,False,No,?
+Sunny,83,90,False,Yes,?
+Sunny,72,95,True,No,?
+Sunny,69,70,True,Yes,?
+Overcast,80,90,True,No,?
+Overcast,64,65,False,Yes,?
+Rainy,68,80,False,Yes,?
+Rainy,70,86,False,Yes,?
+Rainy,75,80,False,Yes,?

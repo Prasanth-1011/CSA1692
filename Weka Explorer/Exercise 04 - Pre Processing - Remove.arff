@@ -1,0 +1,17 @@
+@relation Weather-weka.filters.unsupervised.attribute.Remove-R5
+
+@attribute Outlook {Sunny,Rainy,Overcast}
+@attribute Temperature numeric
+@attribute Humidity numeric
+@attribute Windy {True,False}
+
+@data
+Sunny,85,85,False
+Sunny,83,90,False
+Sunny,72,95,True
+Sunny,69,70,True
+Overcast,80,90,True
+Overcast,64,65,False
+Rainy,68,80,False
+Rainy,70,86,False
+Rainy,75,80,False

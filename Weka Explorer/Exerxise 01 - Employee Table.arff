@@ -1,0 +1,14 @@
+@relation Employee
+@attribute Name {x,y,z,a,b}
+@attribute Id numeric
+@attribute Salary {low,medium,high}
+@attribute Exp numeric
+@attribute Gender {male,female}
+@attribute Phone numeric
+
+@data
+x,101,medium,2,male,250311
+y,102,medium,3,male,251665
+z,103,medium,1,male,240238
+a,104,high,5,female,200200
+b,105,high,2,female,240240
